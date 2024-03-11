@@ -1,0 +1,37 @@
+{
+  "name": "customer-support-sdk-ts",
+  "version": "1.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamashabbir123/customer-sdk-ts.git"
+  },
+  "author": "usama shabbir",
+  "license": "ISC",
+  "keywords": [
+    "customer",
+    "widget",
+    "form"
+  ],
+  "bugs": {
+    "url": "https://github.com/usamashabbir123/customer-sdk-ts.git/issues"
+  },
+  "homepage": "https://github.com/usamashabbir123/customer-sdk-ts.git#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "electron": "^29.1.1",
+    "install": "^0.13.0",
+    "npm": "^10.5.0",
+    "sip": "^0.0.6",
+    "sip.js": "^0.21.2",
+    "socket.io-client": "^4.7.4"
+  }
+}
