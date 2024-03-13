@@ -96,3 +96,14 @@ export declare function audioControl(): void;
  * Video Call Control
  */
 export declare function videoControl(): void;
+/**
+ * ScreenControl
+ */
+export declare function screenControl(): void;
+/**
+ * Webhook Notifications Functions
+ * @param {*} data
+ */
+export declare function authenticateRequest(authenticatorUrl: string, authData: any, callback: any): void;
+export declare function postMessages(obj: any, callback: () => void): void;
+export declare function getBrowserInfo(apiKey: any, callback: any): void;
